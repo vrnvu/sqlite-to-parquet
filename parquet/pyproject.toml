@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "parquet"
+version = "0.1.0"
+description = ""
+authors = ["arnau <diazarnau0@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.3"
+pyarrow = "^3.0.0"
+fastparquet = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
